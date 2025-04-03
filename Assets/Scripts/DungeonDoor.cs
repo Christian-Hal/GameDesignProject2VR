@@ -43,7 +43,7 @@ public class DungeonDoor : MonoBehaviour
         }
     }
 
-    public void Interract(){
+    public void Interact(){
         if(curState == State.Locked) {
             ChangeState(State.Unlocking);
         }else if (curState == State.Unlocking) { 

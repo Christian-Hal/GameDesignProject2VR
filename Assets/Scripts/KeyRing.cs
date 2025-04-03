@@ -31,6 +31,16 @@ public class KeyRing : MonoBehaviour
         
     }
 
+    private void ChangeState(State newState) { 
+        if(curState != newState) {
+            StateEnter[newState]();
+        }
+    }
+
+    public void Interact(){ 
+
+    }
+
     #region state enter methods
     private void StateEnterIdle() {
         
