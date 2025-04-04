@@ -37,8 +37,12 @@ public class KeyRing : MonoBehaviour
         }
     }
 
-    public void Interact(){ 
+    public void Flip() { 
 
+    }
+
+    public void PickUp(){
+        print("Picking up keys");
     }
 
     #region state enter methods
