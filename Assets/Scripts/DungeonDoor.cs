@@ -39,6 +39,7 @@ public class DungeonDoor : MonoBehaviour
 
     private void ChangeState(State newState) {
         if (curState != newState){
+            curState = newState;
             StateEnter[newState]();
         }
     }
@@ -59,11 +60,9 @@ public class DungeonDoor : MonoBehaviour
 
     #region state enter methods
     private void StateEnterLocked(){
-        curState = State.Locked;
         print("play sound indicating the door is locked");
     }
     private void StateEnterUnlocking(){
-        curState = State.Unlocking;
         if(keyRing.curState == KeyRing.State.Idle || keyRing.curState == KeyRing.State.Held){
             ChangeState(State.Locked);
         }else if(keyRing.curState == correctKey) {
@@ -73,16 +72,13 @@ public class DungeonDoor : MonoBehaviour
         }
     }
     private void StateEnterUnlocked(){
-        curState = State.Unlocked;
         print("play sound indicating the door is unlocked now");
     }
     private void StateEnterOpen(){
         print("play animation for opening the door");
         print("play sound for opening the door");
-        curState = State.Open;
     }
     private void StateEnterError(){
-        curState = State.Error;
         print("play sound indicating the wrong key");
         ChangeState(State.Locked);
     }
