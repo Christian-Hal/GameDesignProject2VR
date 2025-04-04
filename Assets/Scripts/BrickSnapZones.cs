@@ -12,10 +12,6 @@ public class BrickSnapZones : MonoBehaviour
     public GameObject manager;
     public int brickNum;
 
-
-    private bool entered;
-    private bool correct;
-
     void Start()
     {
         // Get the MeshRenderer component and store the original color
@@ -32,6 +28,7 @@ public class BrickSnapZones : MonoBehaviour
         if (other.gameObject == TargetObject) // Ensure it's the correct object
         {
             Debug.Log("Snap Zone Entered by TargetObject"); 
+            manager.GetComponent<BrickManager>().correctBrick(brickNum);
         }
     }
 
@@ -41,6 +38,7 @@ public class BrickSnapZones : MonoBehaviour
         if (other.gameObject == TargetObject)
         {
             Debug.Log("Snap Zone Exited by TargetObject");
+            manager.GetComponent<BrickManager>().correctBrick(brickNum);
         }
     }
 

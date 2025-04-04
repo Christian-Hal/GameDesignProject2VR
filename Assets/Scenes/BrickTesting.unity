@@ -1132,7 +1132,7 @@ MonoBehaviour:
   TargetObject: {fileID: 1891768338}
   hoverColor: {r: 0, g: 1, b: 0, a: 1}
   manager: {fileID: 1721934591}
-  brickNum: 0
+  brickNum: 5
 --- !u!1 &393384621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1778,7 +1778,7 @@ MonoBehaviour:
   TargetObject: {fileID: 1376626593}
   hoverColor: {r: 0, g: 1, b: 0, a: 1}
   manager: {fileID: 1721934591}
-  brickNum: 0
+  brickNum: 1
 --- !u!114 &1234266012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2720,7 +2720,7 @@ MonoBehaviour:
   TargetObject: {fileID: 83464206}
   hoverColor: {r: 0, g: 1, b: 0, a: 1}
   manager: {fileID: 1721934591}
-  brickNum: 0
+  brickNum: 4
 --- !u!1 &1596508304
 GameObject:
   m_ObjectHideFlags: 0
@@ -2889,7 +2889,7 @@ MonoBehaviour:
   TargetObject: {fileID: 136563123}
   hoverColor: {r: 0, g: 1, b: 0, a: 1}
   manager: {fileID: 1721934591}
-  brickNum: 0
+  brickNum: 3
 --- !u!1 &1721934591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2919,6 +2919,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dca1ce0096c34af381cf47a1d37e245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  one: 0
+  two: 0
+  three: 0
+  four: 0
+  five: 0
 --- !u!4 &1721934593
 Transform:
   m_ObjectHideFlags: 0
@@ -3500,7 +3505,7 @@ MonoBehaviour:
   TargetObject: {fileID: 1140215158}
   hoverColor: {r: 0, g: 1, b: 0, a: 1}
   manager: {fileID: 1721934591}
-  brickNum: 0
+  brickNum: 2
 --- !u!1001 &2051468218
 PrefabInstance:
   m_ObjectHideFlags: 0
