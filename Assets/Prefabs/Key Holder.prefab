@@ -164,7 +164,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7a73e84e-4025-4b2e-b922-31eb66c500c7
+    name: UM_OperatedMesh_5877253a-4565-4a2f-86c7-04d0688e2b1a
     skinnedMesh: 0
     sharedMesh: {fileID: 1922651244105797080}
     buidVersion:
@@ -176,7 +176,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7a73e84e-4025-4b2e-b922-31eb66c500c7
+  sourceMeshRendererGUID: 5877253a-4565-4a2f-86c7-04d0688e2b1a
   guid: 97c3a752-0ec1-47e8-92ca-fa0b50965753
   localOptions:
     RecalculateTangents: 0
@@ -562,7 +562,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_76cc9c0b-35c2-4bf4-975a-bf725d16e973
+    name: UM_OperatedMesh_836731ad-6d77-4d6b-98ed-f22b0bbe321e
     skinnedMesh: 0
     sharedMesh: {fileID: -1191826271753565862}
     buidVersion:
@@ -574,7 +574,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 76cc9c0b-35c2-4bf4-975a-bf725d16e973
+  sourceMeshRendererGUID: 836731ad-6d77-4d6b-98ed-f22b0bbe321e
   guid: 143a7b7a-7745-41ce-bc2e-f337dbc920f6
   localOptions:
     RecalculateTangents: 0
@@ -691,13 +691,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4875291669598770357}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.21, y: 2.932, z: -0}
+  m_LocalRotation: {x: 0.6984662, y: -0.1102044, z: 0.1102044, w: 0.6984662}
+  m_LocalPosition: {x: 3.953, y: 2.932, z: 0.337}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6434210463931087985}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 17.932}
 --- !u!1 &5094431178419871584
 GameObject:
   m_ObjectHideFlags: 0
