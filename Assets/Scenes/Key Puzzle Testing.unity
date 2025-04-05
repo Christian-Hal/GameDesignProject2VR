@@ -353,7 +353,7 @@ PrefabInstance:
     - target: {fileID: 1464206408624356244, guid: 090db9a38d9a13a4a9b9241072bf2083, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1269055674}
+      objectReference: {fileID: 0}
     - target: {fileID: 1464206408624356244, guid: 090db9a38d9a13a4a9b9241072bf2083, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -370,9 +370,21 @@ PrefabInstance:
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2148894799360008465, guid: 090db9a38d9a13a4a9b9241072bf2083, type: 3}
+      propertyPath: saveData
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2148894799360008465, guid: 090db9a38d9a13a4a9b9241072bf2083, type: 3}
+      propertyPath: materialsPath.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5623674782622951001, guid: 090db9a38d9a13a4a9b9241072bf2083, type: 3}
       propertyPath: m_Name
       value: Key Holder
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685136146169776085, guid: 090db9a38d9a13a4a9b9241072bf2083, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8319818301295242897, guid: 090db9a38d9a13a4a9b9241072bf2083, type: 3}
       propertyPath: m_LocalPosition.x
@@ -418,9 +430,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5094431178419871584, guid: 090db9a38d9a13a4a9b9241072bf2083, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1269055674}
     - targetCorrespondingSourceObject: {fileID: 5094431178419871584, guid: 090db9a38d9a13a4a9b9241072bf2083, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1269055679}
@@ -624,19 +633,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5094431178419871584, guid: 090db9a38d9a13a4a9b9241072bf2083, type: 3}
   m_PrefabInstance: {fileID: 396181271}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1269055674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269055671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 296b6a85bb834034db4df217aecd18a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  curState: 0
 --- !u!64 &1269055679
 MeshCollider:
   m_ObjectHideFlags: 0

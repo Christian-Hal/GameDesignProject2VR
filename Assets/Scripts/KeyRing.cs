@@ -33,16 +33,21 @@ public class KeyRing : MonoBehaviour
 
     private void ChangeState(State newState) { 
         if(curState != newState) {
+            curState = newState;
             StateEnter[newState]();
         }
     }
 
-    public void Flip() { 
-
+    public void Flip() {
+        print("Flipping keyring");
     }
 
     public void PickUp(){
         print("Picking up keys");
+    }
+
+    public void PutDown() {
+        print("Putting down keys");
     }
 
     #region state enter methods
