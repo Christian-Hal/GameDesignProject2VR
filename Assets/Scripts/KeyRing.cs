@@ -14,6 +14,7 @@ public class KeyRing : MonoBehaviour
     }
     private Dictionary<State, Action> StateEnter;
     public State curState = State.Idle;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start(){
@@ -24,6 +25,7 @@ public class KeyRing : MonoBehaviour
             [State.Key2] = StateEnterKey2,
             [State.Key3] = StateEnterKey3,
         };
+        animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -33,10 +35,12 @@ public class KeyRing : MonoBehaviour
 
     private void ChangeState(State newState) { 
         if(curState != newState) {
-            curState = newState;
             StateEnter[newState]();
+            curState = newState;
         }
     }
+
+    #region interaction methods
 
     public void Flip() {
         print("Flipping keyring");
@@ -69,28 +73,93 @@ public class KeyRing : MonoBehaviour
         ChangeState(State.Idle);
     }
 
+    #endregion
+
     #region state enter methods
     private void StateEnterIdle() {
-        print("play animation to lower all keys");
+        LowerAll();
         print("play jingling sound");
     }
     private void StateEnterHeld(){
-        print("play animation to lower all keys");
+        LowerAll();
         print("play jingling sound");
     }
     private void StateEnterKey1(){
-        print("play animation to raise key 1");
+        Key1Up();
         print("play jingling sound");
     }
     private void StateEnterKey2(){
-        print("play animation to raise key 2");
+        Key2Up();
         print("play jingling sound");
     }
     private void StateEnterKey3(){
-        print("play animation to raise key 3");
+        Key3Up();
         print("play jingling sound");
     }
     #endregion
 
+    #region animation methods
+
+    private void LowerAll() { 
+        if(curState == State.Key1) {
+            animator.ResetTrigger("To Key 2");
+            animator.ResetTrigger("To Key 3");
+            animator.ResetTrigger("To Idle");
+
+            animator.SetTrigger("To Key 2");
+            animator.SetTrigger("To Key 3");
+            animator.SetTrigger("To Idle");
+        }
+        else if(curState == State.Key2) {
+            animator.ResetTrigger("To Key 3");
+            animator.ResetTrigger("To Idle");
+
+            animator.SetTrigger("To Key 3");
+            animator.SetTrigger("To Idle");
+        }else if(curState == State.Key3) {
+            animator.ResetTrigger("To Idle");
+
+            animator.SetTrigger("To Idle");
+        }
+    }
+
+    private void Key1Up() { 
+        if(curState == State.Held) {
+            animator.ResetTrigger("To Key 1");
+            
+            animator.SetTrigger("To Key 1");
+        }else if (curState == State.Key3) {
+            animator.ResetTrigger("To Idle");
+            animator.ResetTrigger("To Key 1");
+
+            animator.SetTrigger("To Idle");
+            animator.SetTrigger("To Key 1");
+        }
+        else {
+            print("Error: Shouldn't be calling Key1Up from any state other than Held or Key3. The current State is " + curState);
+        }
+    }
+
+    private void Key2Up() { 
+       if(curState == State.Key1) {
+            animator.ResetTrigger("To Key 2");
+            
+            animator.SetTrigger("To Key 2");
+       } else{
+            print("Error: Shouldn't be calling Key2Up from any state other than Key1. The current state is " + curState);
+       }
+    }
+
+    private void Key3Up() { 
+        if(curState == State.Key2) {
+            animator.ResetTrigger("To Key 3");
+            
+            animator.SetTrigger("To Key 3");
+        }else {
+            print("Error: Shouldn't be calling Key3UP from any state other than Key3. The current state is " + curState);
+        }
+    }
+
+    #endregion
 
 }
