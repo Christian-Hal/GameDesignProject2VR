@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class BreakableObject : MonoBehaviour
 {
+    public float breakVel = .5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class BreakableObject : MonoBehaviour
     {
         Rigidbody Gauntlet = collision.gameObject.GetComponent<Rigidbody>();
 
-        if (collision.gameObject.tag == "Gauntlet" && Gauntlet.velocity.magnitude >= .5) 
+        if (collision.gameObject.tag == "Gauntlet" && Gauntlet.velocity.magnitude >= breakVel) 
         {
             DestroyObject();
         }

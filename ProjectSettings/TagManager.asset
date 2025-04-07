@@ -6,6 +6,8 @@ TagManager:
   tags:
   - LeftHand
   - RightHand
+  - Anchor
+  - Gauntlet
   layers:
   - Default
   - TransparentFX
