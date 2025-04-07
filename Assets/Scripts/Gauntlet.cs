@@ -6,6 +6,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using static UnityEngine.Rendering.DebugUI.Table;
 
 public class Gauntlet : MonoBehaviour
 {
@@ -37,7 +38,8 @@ public class Gauntlet : MonoBehaviour
                 transform.rotation = RightHand.transform.rotation;
                 transform.position = RightHand.transform.position;
             }
-            
+            transform.Rotate(90, 0, 0);
+
         }
         if (!interactable.isSelected && hand != 0)
         {
@@ -57,7 +59,6 @@ public class Gauntlet : MonoBehaviour
     {
         rb.constraints = RigidbodyConstraints.None;
         GameObject interactorObject = arg0.interactorObject.transform.gameObject;
-        Debug.Log("The function was called");
         if (interactorObject.CompareTag("LeftHand"))
         {
             hand = 1;
