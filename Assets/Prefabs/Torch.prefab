@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 729064683007069346}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.25566405, y: -1.1475711, z: 0.997}
+  m_LocalPosition: {x: -0.049, y: 0.774, z: 0.153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4858,7 +4858,7 @@ Transform:
   m_GameObject: {fileID: 4900977364330778584}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3478034, y: -1.9618258, z: 0.7817302}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.0884, y: 1.0884, z: 0.76675606}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4885,7 +4885,7 @@ MonoBehaviour:
   - Assets/Materials/Color Palette.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bc0443c3-8a39-4124-9c53-e49b9cb6fdc6
+    name: UM_OperatedMesh_f321b1f2-be9d-49fe-a0a7-f55b3a3b4e78
     skinnedMesh: 0
     sharedMesh: {fileID: 5352748292932871522}
     buidVersion:
@@ -4897,7 +4897,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bc0443c3-8a39-4124-9c53-e49b9cb6fdc6
+  sourceMeshRendererGUID: f321b1f2-be9d-49fe-a0a7-f55b3a3b4e78
   guid: 3a273458-ddd8-4e89-ba33-3f41543d5fd1
   localOptions:
     RecalculateTangents: 0
@@ -4988,7 +4988,7 @@ Transform:
   m_GameObject: {fileID: 7363082497077441361}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.52533597, y: 2.706571, z: -8.023709}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
