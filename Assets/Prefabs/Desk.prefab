@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5532440012928948083}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8825028, y: -4.605726, z: -8.044757}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -55,7 +55,7 @@ MonoBehaviour:
   - Assets/Materials/Color Palette.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b47287fe-9136-47b4-af3a-5cde4340a2b5
+    name: UM_OperatedMesh_4f8e09c0-b60f-4f21-a9cb-eb75da99ebec
     skinnedMesh: 0
     sharedMesh: {fileID: -8522896848740123696}
     buidVersion:
@@ -67,7 +67,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b47287fe-9136-47b4-af3a-5cde4340a2b5
+  sourceMeshRendererGUID: 4f8e09c0-b60f-4f21-a9cb-eb75da99ebec
   guid: 7a610dfd-643f-433f-9d30-8d7f0d72f725
   localOptions:
     RecalculateTangents: 0
@@ -158,7 +158,7 @@ Transform:
   m_GameObject: {fileID: 7500803235949012805}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3966875, y: 5.350471, z: -11.6517515}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

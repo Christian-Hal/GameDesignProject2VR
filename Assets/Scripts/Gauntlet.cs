@@ -14,13 +14,14 @@ public class Gauntlet : MonoBehaviour
     public GameObject RightHand;
 
     int hand = 0;
-    XRGrabInteractable interactable;
+    private XRGrabInteractable interactable;
     Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         interactable = GetComponent<XRGrabInteractable>();
+        interactable.selectEntered.AddListener(OnSelectEntered);
     }
 
     // Update is called once per frame
@@ -55,7 +56,7 @@ public class Gauntlet : MonoBehaviour
         }
     }
 
-    public void OnGrab(SelectEnterEventArgs arg0)
+    public void OnSelectEntered(SelectEnterEventArgs arg0) 
     {
         rb.constraints = RigidbodyConstraints.None;
         GameObject interactorObject = arg0.interactorObject.transform.gameObject;
@@ -67,6 +68,10 @@ public class Gauntlet : MonoBehaviour
         {
             hand = 2;
         }
+    }
+    void OnDestroy()
+    {
+        interactable.selectEntered.RemoveListener(OnSelectEntered);
     }
 }
 
