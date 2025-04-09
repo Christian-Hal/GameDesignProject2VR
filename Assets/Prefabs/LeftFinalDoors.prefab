@@ -119,7 +119,7 @@ MonoBehaviour:
   - Assets/Materials/Environment/Wood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ca7b5afb-22bf-4eb9-9a31-e6e1852d55b5
+    name: UM_OperatedMesh_cfe92fdb-42ac-488d-a7f2-dc1e583ca5a5
     skinnedMesh: 0
     sharedMesh: {fileID: 204078257345138105}
     buidVersion:
@@ -131,7 +131,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ca7b5afb-22bf-4eb9-9a31-e6e1852d55b5
+  sourceMeshRendererGUID: cfe92fdb-42ac-488d-a7f2-dc1e583ca5a5
   guid: 7220f14e-5d93-43fc-8c30-298ed85720c3
   localOptions:
     RecalculateTangents: 0
