@@ -14,6 +14,10 @@ public class TorchChain : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        for (int i = 0; i < torches.Length; i++)
+        {
+            torches[i].transform.GetChild(2).gameObject.GetComponent<ParticleSystem>().Stop();
+        }
         timer = timer / torches.Length;
         i = 0;
     }
@@ -33,6 +37,8 @@ public class TorchChain : MonoBehaviour
         if (gameTimer / timer >= i+1)
         {
             torches[i].transform.GetChild(1).gameObject.GetComponent<ParticleSystem>().Stop();
+            torches[i].transform.GetChild(2).gameObject.GetComponent<ParticleSystem>().Play();
+
             i++;
 
         }
