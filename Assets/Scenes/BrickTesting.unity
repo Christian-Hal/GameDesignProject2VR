@@ -1550,8 +1550,16 @@ PrefabInstance:
       propertyPath: m_AttachTransform
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8741575444351450997, guid: 67392ef5f09c4fa49a12c9313f30a9c7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9050727514367491193, guid: 67392ef5f09c4fa49a12c9313f30a9c7, type: 3}
       propertyPath: m_AttachTransform
+      value: 
+      objectReference: {fileID: 1918086441}
+    - target: {fileID: 9050727514367491193, guid: 67392ef5f09c4fa49a12c9313f30a9c7, type: 3}
+      propertyPath: m_SecondaryAttachTransform
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9050727514367491193, guid: 67392ef5f09c4fa49a12c9313f30a9c7, type: 3}
@@ -3002,6 +3010,11 @@ Transform:
   - {fileID: 393384622}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 63.138, z: 0}
+--- !u!4 &1918086441 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4349780587785112321, guid: 67392ef5f09c4fa49a12c9313f30a9c7, type: 3}
+  m_PrefabInstance: {fileID: 1123492404}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1973499289
 GameObject:
   m_ObjectHideFlags: 0
