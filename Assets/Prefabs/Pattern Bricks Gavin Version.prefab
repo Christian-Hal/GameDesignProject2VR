@@ -59,7 +59,7 @@ MonoBehaviour:
   - Assets/Materials/Environment/Loose Brick Material.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a22f7ac3-bd28-45c1-ae26-01947d283077
+    name: UM_OperatedMesh_bf0c67a9-ea8e-4509-b0ec-5f5318ca708d
     skinnedMesh: 0
     sharedMesh: {fileID: -3217824308671248299}
     buidVersion:
@@ -71,7 +71,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a22f7ac3-bd28-45c1-ae26-01947d283077
+  sourceMeshRendererGUID: bf0c67a9-ea8e-4509-b0ec-5f5318ca708d
   guid: 3cb8c668-0454-4ce7-89d3-bbcfec12f0d3
   localOptions:
     RecalculateTangents: 0
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 4349780587785112321}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
@@ -335,7 +335,7 @@ Transform:
   m_GameObject: {fileID: 1183260007086759751}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.13300002, z: -0.28200006}
+  m_LocalPosition: {x: 0.6, y: 0.13300002, z: -0.4}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -440,7 +440,7 @@ Transform:
   m_GameObject: {fileID: 2910826761674524210}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.13300002, z: -0.3}
+  m_LocalPosition: {x: 0.6, y: 0.13300002, z: -0.2}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -576,7 +576,7 @@ MonoBehaviour:
   - Assets/Materials/Environment/Loose Brick Material.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_93c7d677-c270-4b28-a3c6-6c195ecf2daf
+    name: UM_OperatedMesh_cc313833-5701-470d-b366-df2454e7d363
     skinnedMesh: 0
     sharedMesh: {fileID: -2005996092163673963}
     buidVersion:
@@ -588,7 +588,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 93c7d677-c270-4b28-a3c6-6c195ecf2daf
+  sourceMeshRendererGUID: cc313833-5701-470d-b366-df2454e7d363
   guid: 3cb8c668-0454-4ce7-89d3-bbcfec12f0d3
   localOptions:
     RecalculateTangents: 0
@@ -753,7 +753,7 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 5067196751324334353}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
@@ -852,7 +852,7 @@ Transform:
   m_GameObject: {fileID: 4395277554777878867}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.13300002, z: -0.3}
+  m_LocalPosition: {x: 0.6, y: 0.13300002, z: -0.35}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -988,7 +988,7 @@ MonoBehaviour:
   - Assets/Materials/Environment/Loose Brick Material.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6047b721-0fb5-4a25-934a-68efca4adb70
+    name: UM_OperatedMesh_220176c3-1129-4155-b40f-15006b30e476
     skinnedMesh: 0
     sharedMesh: {fileID: -3362074057448113962}
     buidVersion:
@@ -1000,7 +1000,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6047b721-0fb5-4a25-934a-68efca4adb70
+  sourceMeshRendererGUID: 220176c3-1129-4155-b40f-15006b30e476
   guid: 3cb8c668-0454-4ce7-89d3-bbcfec12f0d3
   localOptions:
     RecalculateTangents: 0
@@ -1165,7 +1165,7 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 4786270856629113397}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
@@ -1246,7 +1246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3644172238595442981}
   m_Layer: 0
-  m_Name: Pattern Bricks
+  m_Name: Pattern Bricks Gavin Version
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1300,7 +1300,7 @@ Transform:
   m_GameObject: {fileID: 5291321077248504258}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.133, z: -0.282}
+  m_LocalPosition: {x: 0.5, y: 0.133, z: -0.282}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1436,7 +1436,7 @@ MonoBehaviour:
   - Assets/Materials/Environment/Loose Brick Material.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_214738fe-a17f-4867-821a-c6c460328731
+    name: UM_OperatedMesh_3bc2ba29-8ff6-4d81-9569-b3f8dbccc771
     skinnedMesh: 0
     sharedMesh: {fileID: 4451704029333820167}
     buidVersion:
@@ -1448,7 +1448,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 214738fe-a17f-4867-821a-c6c460328731
+  sourceMeshRendererGUID: 3bc2ba29-8ff6-4d81-9569-b3f8dbccc771
   guid: 3cb8c668-0454-4ce7-89d3-bbcfec12f0d3
   localOptions:
     RecalculateTangents: 0
@@ -1613,7 +1613,7 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 4189011037249825276}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
@@ -1712,7 +1712,7 @@ Transform:
   m_GameObject: {fileID: 6966458569124858225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.13300002, z: -0.3}
+  m_LocalPosition: {x: 0.5, y: 0.13300002, z: -0.35}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1848,7 +1848,7 @@ MonoBehaviour:
   - Assets/Materials/Environment/Loose Brick Material.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7f386727-e787-4ff3-8ea1-3206541f301c
+    name: UM_OperatedMesh_822f1c87-c89a-4b44-aba1-05408216614a
     skinnedMesh: 0
     sharedMesh: {fileID: -8362615542426332912}
     buidVersion:
@@ -1860,7 +1860,7 @@ MonoBehaviour:
       IndexVersion: 0
       OptimizedTopology: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7f386727-e787-4ff3-8ea1-3206541f301c
+  sourceMeshRendererGUID: 822f1c87-c89a-4b44-aba1-05408216614a
   guid: 3cb8c668-0454-4ce7-89d3-bbcfec12f0d3
   localOptions:
     RecalculateTangents: 0
@@ -2025,7 +2025,7 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 8269193555161963947}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
