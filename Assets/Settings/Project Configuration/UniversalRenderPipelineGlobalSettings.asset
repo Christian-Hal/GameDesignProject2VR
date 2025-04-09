@@ -22,7 +22,8 @@ MonoBehaviour:
   - Light Layer 5
   - Light Layer 6
   - Light Layer 7
-  m_ValidRenderingLayers: 255
+  - Layer 8
+  m_ValidRenderingLayers: 511
   lightLayerName0: Light Layer default
   lightLayerName1: Light Layer 1
   lightLayerName2: Light Layer 2
@@ -37,5 +38,5 @@ MonoBehaviour:
   m_StripUnusedLODCrossFadeVariants: 1
   m_StripScreenCoordOverrideVariants: 1
   supportRuntimeDebugDisplay: 0
-  m_ShaderVariantLogLevel: 0
+  m_ShaderVariantLogLevel: 2
   m_ExportShaderVariants: 1
