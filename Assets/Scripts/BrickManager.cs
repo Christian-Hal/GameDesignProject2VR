@@ -13,10 +13,15 @@ public class BrickManager : MonoBehaviour
     public bool four;
     public bool five;
     private bool all;
-    public GameObject door;
     // Start is called before the first frame update
     void Start()
     {
+        one = false;
+        two = false;
+        three = false;
+        four = false;
+        five = false;
+
         all = false;
     }
 
@@ -27,8 +32,6 @@ public class BrickManager : MonoBehaviour
         {
             all = true;
             print("ALL ARE CORRECT");
-            door.GetComponent<Animator>().Play("Door Open Animation");
-            //door.GetComponent<Animation>().Play();
         }
     }
 
