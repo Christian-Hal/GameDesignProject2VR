@@ -28,7 +28,6 @@ public class TorchChain : MonoBehaviour
     void Update()
     {
         gameTimer += Time.deltaTime;
-        Debug.Log(gameTimer);
         
         if (i >= torches.Length)
         {

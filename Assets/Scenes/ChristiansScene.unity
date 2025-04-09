@@ -1513,6 +1513,7 @@ MonoBehaviour:
   - {fileID: 558980827}
   - {fileID: 385913771}
   timer: 60
+  endScene: GameOver
 --- !u!4 &1236967981
 Transform:
   m_ObjectHideFlags: 0
@@ -2700,7 +2701,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 126
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &2121411946
 MonoBehaviour:
   m_ObjectHideFlags: 0
