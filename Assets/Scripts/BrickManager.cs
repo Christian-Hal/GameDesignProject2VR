@@ -27,7 +27,7 @@ public class BrickManager : MonoBehaviour
         {
             all = true;
             print("ALL ARE CORRECT");
-            door.GetComponent<Animator>().Play("Door Open Animation");
+            door.GetComponent<Animator>().SetTrigger("OpenDoor");
             //door.GetComponent<Animation>().Play();
         }
     }
