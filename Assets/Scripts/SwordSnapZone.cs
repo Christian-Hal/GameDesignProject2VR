@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Utilities;
 
-public class BrickSnapZones : MonoBehaviour
+public class SwordSnapZone : MonoBehaviour
 {
     public GameObject TargetObject; // Object that can trigger the snap zone
     private MeshRenderer meshRenderer;
     public Color hoverColor = Color.green; // Color when object hovers
     private Color originalColor;
     public GameObject manager;
-    public int brickNum;
+    public int swordNum;
 
     void Start()
     {
@@ -28,7 +28,7 @@ public class BrickSnapZones : MonoBehaviour
         if (other.gameObject == TargetObject) // Ensure it's the correct object
         {
             Debug.Log("Snap Zone Entered by TargetObject"); 
-            manager.GetComponent<BrickManager>().correctBrick(brickNum);
+            manager.GetComponent<SwordManager>().correctSword(swordNum);
         }
     }
 
@@ -38,7 +38,7 @@ public class BrickSnapZones : MonoBehaviour
         if (other.gameObject == TargetObject)
         {
             Debug.Log("Snap Zone Exited by TargetObject");
-            manager.GetComponent<BrickManager>().correctBrick(brickNum);
+            manager.GetComponent<SwordManager>().correctSword(swordNum);
         }
     }
 
