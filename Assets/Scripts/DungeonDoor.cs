@@ -17,6 +17,7 @@ public class DungeonDoor : MonoBehaviour
     public KeyRing.State correctKey;
     public GameObject keyRingObj;
     private KeyRing keyRing;
+    public GameObject door;
 
     // Start is called before the first frame update
     void Start(){
@@ -75,7 +76,7 @@ public class DungeonDoor : MonoBehaviour
         print("play sound indicating the door is unlocked now");
     }
     private void StateEnterOpen(){
-        print("play animation for opening the door");
+        door.GetComponent<FinalDoor>().Open();
         print("play sound for opening the door");
     }
     private void StateEnterError(){
