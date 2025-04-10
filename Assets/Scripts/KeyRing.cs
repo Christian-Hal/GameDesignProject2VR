@@ -15,6 +15,8 @@ public class KeyRing : MonoBehaviour
     private Dictionary<State, Action> StateEnter;
     public State curState = State.Idle;
     public Animator animator;
+    private Rigidbody rb;
+    private BoxCollider col;
 
     // Start is called before the first frame update
     void Start(){
@@ -26,6 +28,8 @@ public class KeyRing : MonoBehaviour
             [State.Key3] = StateEnterKey3,
         };
         animator = gameObject.GetComponent<Animator>();
+        rb = gameObject.GetComponent<Rigidbody>();
+        col = gameObject.GetComponent<BoxCollider>();
     }
 
     // Update is called once per frame
@@ -63,12 +67,16 @@ public class KeyRing : MonoBehaviour
 
     public void PickUp(){
         print("Picking up keys");
+        rb.useGravity = false;
+        col.enabled = false;
         if(curState == State.Idle) {
             ChangeState(State.Held);
         }
     }
 
     public void PutDown() {
+        rb.useGravity = true;
+        col.enabled = true;
         print("Putting down keys");
         ChangeState(State.Idle);
     }
