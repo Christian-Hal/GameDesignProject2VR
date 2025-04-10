@@ -17,14 +17,15 @@ public class playMonocleJingle : MonoBehaviour
     {
         if (Dollhouse.DollhouseComplete == true) 
         {
-            playOnce();
+            playOnceAndMove();
         }
     }
 
-    void playOnce()
+    void playOnceAndMove()
     {
         if (repeat == 0)
         {
+            this.transform.position = new Vector3(4, 0, 0);
             jingle.Play();
             repeat += 1;
         }
