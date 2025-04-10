@@ -25,7 +25,7 @@ public class playMonocleJingle : MonoBehaviour
     {
         if (repeat == 0)
         {
-            this.transform.position = new Vector3(4, 0, 0);
+            this.transform.position = new Vector3(-25, 5, -15);
             jingle.Play();
             repeat += 1;
         }
