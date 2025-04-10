@@ -61,7 +61,7 @@ public class TileRandomizer : MonoBehaviour
                 }
                 // put the tile in the slot
                 Slots[i].GetComponent<XRSocketInteractor>().startingSelectedInteractable = Tiles[tile];
-                Tiles[tile].GetComponent<Transform>().position = Slots[i].GetComponent<Transform>().position;
+                Tiles[tile].GetComponent<Transform>().position = Slots[i].GetComponent<Transform>().Find("TpPos").position;
 
                 // set the tile to true
                 TileBools[tile] = true;
