@@ -6,9 +6,8 @@ using UnityEngine.SceneManagement;
 public class VictoryScreen : MonoBehaviour
 {
     // Start is called before the first frame update
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene("VictoryScreen", LoadSceneMode.Single);
     }
-    
 }

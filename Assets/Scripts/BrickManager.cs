@@ -19,6 +19,12 @@ public class BrickManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        one = false;
+        two = false;
+        three = false;
+        four = false;
+        five = false;
+
         all = false;
         openTimer = float.MaxValue;
     }
